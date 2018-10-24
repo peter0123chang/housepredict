@@ -1,11 +1,10 @@
-dj-database-url==0.5.0
+dj-database-url==0.4.2
 dj-static==0.0.6
-Django==2.1.2
+Django==1.11.3
 django-simple-captcha==0.5.5
 django-heroku==0.3.1
-gunicorn==19.9.0
+gunicorn==19.7.1
 olefile==0.44
-openpyxl==2.4.7
 Pillow==4.2.1
 psycopg2==2.7.1
 pytz==2017.2
