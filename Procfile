@@ -1,1 +1,1 @@
-web:gunicorn \housepredict.pulifood.wsgi --log-file -
+web:gunicorn --pythonpath housepredict pulifood.wsgi --log-file -
