@@ -1,1 +1,1 @@
-web:gunicorn --pythonpath pulifood pulifood.wsgi
+web:gunicorn --pythonpath housepredict pulifood.wsgi
