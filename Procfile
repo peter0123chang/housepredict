@@ -1,1 +1,1 @@
-web:gunicorn \pulifood.wsgi
+web:gunicorn \pulifood.wsgi --log-file -
