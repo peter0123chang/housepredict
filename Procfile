@@ -1,1 +1,1 @@
-web:gunicorn /housepredict/pulifood.wsgi
+web:gunicorn housepredict /pulifood.wsgi
