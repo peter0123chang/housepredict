@@ -1,1 +1,1 @@
-web:gunicorn --pythonpath pulifood pulifood.wsgi --log-file -
+web:gunicorn --pythonpath puliapp pulifood.wsgi --log-file -
