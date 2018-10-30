@@ -11,9 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 import django_heroku
 import os
-if os.getenv('DATABASE_URL') is not None:
-    import dj_database_url
-    DATABASES['default'] = dj_database_url.config()
+
 # Activate Django-Heroku.
 django_heroku.settings(locals())
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -150,3 +148,6 @@ if 'dyno' in os.environ:
 #STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 '''
+if os.getenv('DATABASE_URL') is not None:
+    import dj_database_url
+    DATABASES['default'] = dj_database_url.config()
